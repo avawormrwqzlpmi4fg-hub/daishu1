@@ -235,8 +235,8 @@
                  { phone: "61451466341", text: "Hi! I want to claim my spot. Please send me the access details." }
             ];
 
-            // 2. 180 天防撞单分配缓存
-            const LOCK_DURATION = 180 * 24 * 60 * 60 * 1000; 
+            // 2. 180天防撞单分配缓存
+            const LOCK_DURATION = 180 * 24 * 60 * 60 * 1000;
             const now = new Date().getTime();
             let selectedTarget = null;
             const cachedShuntData = localStorage.getItem('wa_assigned_client');
